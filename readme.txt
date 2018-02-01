@@ -1,8 +1,3 @@
-
- Jinchao Chai   (jxc164030)
- Yuting   Wang  (yxw161930)
-
-_______________________
 Language used:python
 Packages:pandas, talib, matplotlib, sklearn and so on
 Tested platform: MacOS 10.12.6
