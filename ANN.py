@@ -7,12 +7,15 @@ from sklearn.neural_network import MLPClassifier
 
 start = datetime.datetime(2017,01,04)
 end = datetime.datetime(2017,12,01)
+
+#create the name list of stock code
 nameList=[]
 f = open("stock.txt")
 for i in range(50):
     nameList.append(f.readline().split("\n")[0])
 f.close()
 
+#get data: stock name code, start time, end time
 def getData(code,start,end):
     data = pandasData.DataReader(code,'yahoo',start,end)
     # print len(data)
